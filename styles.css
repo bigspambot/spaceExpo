@@ -1,0 +1,48 @@
+@font-face {
+    src: url("nasalization-rg.otf");
+    font-family: nasalization;
+}
+
+body {
+    margin: 0;
+    color: #850FE4;
+    font-family: nasalization;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px -1px 2px white;
+}
+
+#hero {
+    background-image: url("images/galaxy.gif");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 100px 0 240px 0;
+}
+
+#logo {
+    text-align: inherit;
+    opacity: 0.5;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.underline {   
+    border-bottom: 4px solid white;
+}
+
+.btn-apply {
+    padding: 10px 15px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 1px black solid;
+    color: #850FE4;
+}
+
+h3 {
+    color: #850FE4;
+}
