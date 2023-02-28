@@ -8,7 +8,7 @@ body {
     color: #850FE4;
     font-family: nasalization;
     /* font-family: 'Orbitron', sans-serif; */
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -19,8 +19,9 @@ h1 {
 #hero {
     background-image: url("images/galaxy.gif");
     background-size: cover;
+    background-position: center;
     /* background-attachment: fixed; */
-    padding: 100px 0 240px 0;
+    padding: 100px 0 270px 0;
 }
 
 #logo {
@@ -45,4 +46,16 @@ h1 {
 
 h3 {
     color: #850FE4;
+}
+
+#footer {
+    bottom: 0;
+    left: 0;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    justify-content: center;
 }
